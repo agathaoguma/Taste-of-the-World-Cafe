@@ -37,7 +37,7 @@ The analysis focuses on five key areas:
 
 The dataset used in this project was obtained from a **Maven Analytics guided project**.
 
-- Source: Maven Analytics  
+- Source: [Maven Analytics Guided Project](https://app.mavenanalytics.io/guided-projects/d7167b45-6317-49c9-b2bb-42e2a9e9c0bc)) 
 - The dataset was provided as part of the project and imported into a PostgreSQL database for analysis.
 
 ---
@@ -95,6 +95,12 @@ This table contains information about the restaurant’s menu.
 Records with missing or unmatched `item_id` values were excluded during the join between `order_details` and `menu_items`.
 
 This ensures that all analysis is based on valid transactions with complete menu information, maintaining accuracy in revenue and item-level insights while slightly reducing the total number of analyzed records
+
+---
+## 🧮 SQL Analysis
+
+All SQL queries used in this project are available in the [`/sql` directory](https://github.com/agathaoguma/Taste-of-the-World-Cafe/tree/9d4a6d0662a20abd6960293cd56c2b1fe7845b5e/sql).  
+Each file represents a specific area of analysis and is well documented with comments.
 
 ---
 
