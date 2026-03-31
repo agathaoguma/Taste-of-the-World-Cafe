@@ -37,7 +37,7 @@ The analysis focuses on five key areas:
 
 The dataset used in this project was obtained from a **Maven Analytics guided project**.
 
-- Source: [Maven Analytics Guided Project](https://app.mavenanalytics.io/guided-projects/d7167b45-6317-49c9-b2bb-42e2a9e9c0bc)) 
+- Source: [Maven Analytics Guided Project](https://app.mavenanalytics.io/guided-projects/d7167b45-6317-49c9-b2bb-42e2a9e9c0bc) 
 - The dataset was provided as part of the project and imported into a PostgreSQL database for analysis.
 
 ---
