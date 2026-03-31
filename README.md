@@ -55,7 +55,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 👉 *Granularity: One row per menu item*
 
 ### 🔗 Relationship
- ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/87351320c3a21d082985a09e43d5b3c17460cd03/Entity%20Relationship%20Diagram.jpg)
+ ![]([https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/87351320c3a21d082985a09e43d5b3c17460cd03/Entity%20Relationship%20Diagram.jpg](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/f72bb3f64f7035d299a23b6bb55743fd6e0e1140/Relationship%20diagram.png))
 
 * One-to-Many (1:M)
 * One menu item → many order records
