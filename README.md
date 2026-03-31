@@ -71,6 +71,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ## 📊 Executive Summary
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Summary%20Dashboard.jpg)
 
 * Italian and Asian cuisines are the primary revenue drivers
 * The **Korean Beef Bowl** is the top-performing item (> $10K revenue)
@@ -83,6 +84,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ## 🚀 Key Insights & Recommendations
 
 ### 1. 💰 Revenue Leaders
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Revenue%20by%20Category%20Dashboard.jpg)
 
 * Italian cuisine generates the highest revenue due to premium pricing
 * Asian cuisine leads in order volume
@@ -97,6 +99,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 2. ⭐ Top & Bottom Performers
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Top%20and%20Bottom%20Items%20Dashboard.jpg)
 
 * **Top Item**: Korean Beef Bowl ($10.6K revenue)
 * **High Volume Items**: Hamburger, Edamame
@@ -111,6 +114,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 3. ⏰ Peak Demand
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Peak%20Day%20and%20Hour%20Dashboard.jpg)
 
 * Peak hours: **12 PM (Lunch)** and **5 PM (Dinner)**
 * Highest revenue day: **Monday**
@@ -125,6 +129,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 4. 🛒 Order Size & Spending
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Ordersize%20Dashboard.jpg)
 
 * Average Order Value: **$29.60**
 * Medium orders (2–4 items) generate most revenue
@@ -139,6 +144,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 5. 🍽️ Menu Pairings
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/ComboMeals%20Dashboard.jpg)
 
 * Most common pairing: **Edamame + Burger**
 * Highest revenue combos involve Korean Beef Bowl
@@ -179,11 +185,6 @@ The dataset consists of two tables with a total of **12,266 records**.
 
 This analysis provides actionable insights into customer behavior, product performance, and revenue trends. By focusing on high-performing items, optimizing pricing strategies, and leveraging customer purchase patterns, the restaurant can significantly improve profitability.
 
----
-
-## 📷 Dashboard Preview
-
-*(Insert dashboard screenshots here)*
 
 ---
 
