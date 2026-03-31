@@ -266,26 +266,13 @@ As a result, the same order value may be counted multiple times across different
   With demand concentrated in a small number of combinations, curating and highlighting top-performing pairings can improve decision-making and overall sales efficiency.
 ---
 
-## ⚙️ Assumptions & Data Cleaning
+## ⚙️ Assumptions
 
-### 1. Order Size Categorization
+### Order Size Categorization
 
 * Small: 1 item
 * Medium: 2–4 items
 * Large: 5+ items
-
-### 2. Data Cleaning
-
-* Removed ~2.5% of records with zero/negative revenue
-* Ensured accurate Average Order Value calculation
-
----
-
-## 📈 Tools & Skills Used
-
-* **SQL (PostgreSQL)** – Data cleaning & analysis
-* **Power BI** – Dashboard creation & visualization
-* **Data Analysis** – Business insights & storytelling
 
 ---
 
