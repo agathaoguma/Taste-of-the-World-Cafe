@@ -31,47 +31,75 @@ The analysis focuses on five key areas:
 
 ---
 
-## 🗂️ Data Structure
+## 🗂️ Data Structure & Data Source
 
-The dataset consists of two tables with a total of **12,266 records**.
+### Data Source
 
-### 1. `order_details`
+The dataset used in this project was obtained from a **Maven Analytics guided project**.
 
-* **order_details_id (PK)**: Unique record identifier
-* **order_id**: Order identifier (repeats per item)
-* **order_date**: Date of order
-* **order_time**: Time of order
-* **item_id (FK)**: Links to menu_items
+- Source: Maven Analytics  
+- The dataset was provided as part of the project and imported into a PostgreSQL database for analysis.
 
-👉 *Granularity: One row per item within an order*
+---
 
-### 2. `menu_items`
+### Database Structure
 
-* **menu_item_id (PK)**: Unique item identifier
-* **item_name**: Name of item
-* **category**: Item category (American, Asian, Italian, Mexican)
-* **price**: Item price
+The database consists of two relational tables:
 
-👉 *Granularity: One row per menu item*
+#### 1. `order_details`
+This table captures transactional data for each order placed.
 
-### 🔗 Relationship
- ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/f72bb3f64f7035d299a23b6bb55743fd6e0e1140/Relationship%20diagram.png)
+- `order_details_id` (PK): Unique identifier for each record  
+- `order_id`: Identifier for each order (can appear multiple times per order)  
+- `order_date`: Date the order was placed  
+- `order_time`: Time the order was placed  
+- `item_id` (FK): References `menu_items.menu_item_id`  
 
-* One-to-Many (1:M)
-* One menu item → many order records
+👉 **Granularity:** One row per item within an order  
 
-### ⚠️ Data Quality Check
+---
 
-* `menu_items`: 32 rows
-* `order_details`: 12,234 rows
-* Joined dataset: 12,097 rows
+#### 2. `menu_items`
+This table contains information about the restaurant’s menu.
 
-➡️ **Insight**: 137 records in `order_details` have no matching menu item, indicating potential data inconsistencies.
+- `menu_item_id` (PK): Unique identifier for each menu item  
+- `item_name`: Name of the menu item  
+- `category`: Item category (American, Asian, Italian, Mexican)  
+- `price`: Price of the item  
+
+👉 **Granularity:** One row per menu item  
+
+---
+
+### 🔗 Table Relationship
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Relationship%20diagram.png)
+
+- **One-to-Many (1:M)** relationship  
+  - One menu item → can appear in many order records  
+  - Each order record → references one menu item  
+
+---
+
+### ⚠️ Data Quality & Initial Checks
+
+- `menu_items`: 32 rows  
+- `order_details`: 12,234 rows  
+- Joined dataset: 12,097 rows  
+
+➡️ **Insight:** 137 records in `order_details` do not have matching entries in `menu_items`, indicating missing or inconsistent references.
+
+---
+
+### Data Quality Note
+
+Records with missing or unmatched `item_id` values were excluded during the join between `order_details` and `menu_items`.
+
+This ensures that all analysis is based on valid transactions with complete menu information, maintaining accuracy in revenue and item-level insights while slightly reducing the total number of analyzed records
 
 ---
 
 ## 📊 Executive Summary
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Summary%20Dashboard.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Summary%20Dashboard.jpg)
 
 * Italian and Asian cuisines are the primary revenue drivers
 * The **Korean Beef Bowl** is the top-performing item (> $10K revenue)
@@ -84,7 +112,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ## 🚀 Key Insights & Recommendations
 
 ### 1. 💰 Revenue Leaders
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Revenue%20by%20Category%20Dashboard.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Revenue%20by%20Category%20Dashboard.jpg)
 
 ### Key Insights
 
@@ -115,7 +143,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 2. ⭐ Top & Bottom Performers
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Top%20and%20Bottom%20Items%20Dashboard.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Top%20and%20Bottom%20Items%20Dashboard.jpg)
 
 - **The Korean Beef Bowl is the standout revenue leader**, generating over **$10.6K in revenue**, outperforming the next closest item (Spaghetti & Meatballs at $8.4K) by over 25%. Although it ranks third in sales volume (588 units), its strong revenue contribution highlights an optimal balance between popularity and price, making it the most valuable item on the menu.
 
@@ -139,7 +167,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 3. ⏰ Peak Demand
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Peak%20Day%20and%20Hour%20Dashboard.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Peak%20Day%20and%20Hour%20Dashboard.jpg)
 
 - **Lunch and early dinner are the primary daily rushes**, with peak activity occurring at **12:00 PM (lunch)** and **5:00 PM (early dinner)**. These periods represent the highest concentration of both orders and revenue.
 
@@ -167,7 +195,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ### 4. 🛒 Order Size & Spending
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Ordersize%20Dashboard.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Ordersize%20Dashboard.jpg)
 
 - **Medium orders are the primary revenue drivers**, contributing over **$111K**, significantly higher than Small ($27K) and Large ($21K) orders. This indicates that mid-sized purchases (spending $20–$40) are the most valuable to the business.
 
@@ -192,7 +220,7 @@ The dataset consists of two tables with a total of **12,266 records**.
 ---
 
 ## 🍽️ Menu Pairings & Combo Performance
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/5d340a8613c6a6a10b61878df70b4620f6ab5c79/Combo%20Meals.jpg)
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/9880d54661d880eb2af8f1e63b1a2c4b29f89273/image/Combo%20Meals.jpg)
 
 ### Key Insights
 
