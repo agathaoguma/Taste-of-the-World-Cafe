@@ -86,76 +86,150 @@ The dataset consists of two tables with a total of **12,266 records**.
 ### 1. 💰 Revenue Leaders
 ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Revenue%20by%20Category%20Dashboard.jpg)
 
-* Italian cuisine generates the highest revenue due to premium pricing
-* Asian cuisine leads in order volume
-* Revenue spikes occur mid-month and end-of-month
+### Key Insights
 
-**Recommendations:**
+- **Italian cuisine is the primary revenue driver**, generating the highest revenue despite lower order volume. This indicates that customers perceive Italian dishes as **premium, high-value, “special occasion” meals**, and are willing to pay the average price of **$16.80 per item**.
+- **Asian cuisine leads in order volume**, suggesting it is viewed as a **convenient, go-to option**. Its strong demand is driven by accessibility and frequent customer preference, even at lower price points.
+- **Revenue peaks consistently occur mid-month and at month-end**, indicating a strong correlation with **payday cycles**. Customers tend to increase spending when disposable income is higher, leading to noticeable spikes in transactions and revenue.
 
-* Introduce premium add-ons for Italian dishes
-* Create bundle deals for Asian cuisine
-* Align marketing with payday cycles
+---
+
+### Strategic Recommendations
+
+- **Enhance Italian offerings with premium add-ons**  
+  Since customers are already willing to pay higher prices, introducing add-ons (e.g., sides, premium ingredients, or upgrades) can further increase **average order value (AOV)**.
+
+- **Develop combo meals and family packs for Asian cuisine**  
+  Leverage high demand by encouraging larger basket sizes through bundled offers, which can help convert high-volume traffic into **higher revenue per order**.
+
+- **Align promotions with payday cycles**  
+  Schedule marketing campaigns, discounts, and featured items during **mid-month (10th–15th)** and **end-of-month periods**, when customer spending is highest.
+
+- **Revitalize American and Mexican categories**  
+  These categories show the lowest performance in both volume and revenue. Consider:
+  - Menu repositioning  
+  - “Happy Hour” or targeted discounts  
+  - Product innovation or menu refresh  
+  to improve competitiveness and customer interest.
 
 ---
 
 ### 2. ⭐ Top & Bottom Performers
 ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Top%20and%20Bottom%20Items%20Dashboard.jpg)
 
-* **Top Item**: Korean Beef Bowl ($10.6K revenue)
-* **High Volume Items**: Hamburger, Edamame
-* **Worst Performer**: Chicken Tacos
+- **The Korean Beef Bowl is the standout revenue leader**, generating over **$10.6K in revenue**, outperforming the next closest item (Spaghetti & Meatballs at $8.4K) by over 25%. Although it ranks third in sales volume (588 units), its strong revenue contribution highlights an optimal balance between popularity and price, making it the most valuable item on the menu.
 
-**Recommendations:**
+- **Hamburgers and Edamame drive maximum foot traffic**, with 622 and 620 units sold respectively. However, their revenue impact differs significantly: the Hamburger is a strong contributor ($8.1K), while Edamame is an underperformer ($3.1K). This suggests Edamame drives volume but contributes less to overall profitability compared to main dishes.
 
-* Promote high-margin “hero” products
-* Bundle high-volume, low-revenue items
-* Remove or improve underperforming items
+- **Chicken Tacos are the lowest performers across all metrics**, with only 123 units sold and total revenue of $1.5K. Consistently appearing at the bottom across charts, this item represents a strong candidate for removal or reformulation to better optimize kitchen resources.
+
+- **Revenue threshold highlights critical underperformers**, including Meat Lasagna, Salmon Rolls, and Veggie Burgers, all of which fall below the portfolio average of **$4.9K in revenue**. Despite some items (like Potstickers and Steak Tacos) showing decent sales volume, they fail to meet the revenue benchmark, making them strong candidates for pricing adjustments or replacement.
+
+### Strategic Recommendations
+
+- **Capitalize on the Korean Beef Bowl**  
+  Feature this item prominently in marketing and menu placement as the primary “hero” product.
+
+- **Address high-volume, low-revenue items**  
+  For items like Edamame and French Fries, consider slight price increases or bundling with higher-margin items (e.g., beverages) to improve profitability.
+
+- **Menu optimization (pruning)**  
+  Consider phasing out low-performing items such as Chicken Tacos and Potstickers to make room for higher-performing or test items.
 
 ---
 
 ### 3. ⏰ Peak Demand
 ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Peak%20Day%20and%20Hour%20Dashboard.jpg)
 
-* Peak hours: **12 PM (Lunch)** and **5 PM (Dinner)**
-* Highest revenue day: **Monday**
-* Peak period: End of the month
+- **Lunch and early dinner are the primary daily rushes**, with peak activity occurring at **12:00 PM (lunch)** and **5:00 PM (early dinner)**. These periods represent the highest concentration of both orders and revenue.
 
-**Recommendations:**
+- **Mondays are the highest revenue-generating days**, averaging nearly **$27K in daily revenue**, significantly higher than the mid-week low observed on Wednesday (~$20K). This suggests a strong start-of-week demand pattern.
 
-* Optimize staffing during peak hours
-* Run promotions on Mondays
-* Increase inventory before month-end
+- **Transactions peak during the final week of the month**, with the highest activity occurring around **day 27**, where transactions exceed 200. This aligns with previous observations of a payday-driven revenue spike.
+
+- **Late-night activity declines sharply after 8:00 PM**, with minimal transactions observed by 10:00 PM. This indicates that the business primarily operates within daytime and early evening demand windows.
+
+### Strategic Recommendations
+
+- **Optimize staffing for peak hours**  
+  Ensure adequate staffing between **11:30 AM – 1:30 PM** and **4:30 PM – 6:30 PM** to maintain service efficiency.
+
+- **Leverage “Magic Mondays”**  
+  Introduce targeted promotions or discounts on Mondays to further maximize already strong demand.
+
+- **Prepare for month-end demand surges**  
+  Increase inventory and staffing during the final week of the month (Days 25–31).
+
+- **Evaluate operating hours**  
+  Consider reducing late-night operations due to consistently low demand after 8:00 PM.
+
 
 ---
 
 ### 4. 🛒 Order Size & Spending
 ![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/Ordersize%20Dashboard.jpg)
 
-* Average Order Value: **$29.60**
-* Medium orders (2–4 items) generate most revenue
-* 40% of customers buy only one item
+- **Medium orders are the primary revenue drivers**, contributing over **$111K**, significantly higher than Small ($27K) and Large ($21K) orders. This indicates that mid-sized purchases (spending $20–$40) are the most valuable to the business.
 
-**Recommendations:**
+- **Approximately 40% of customers purchase only one item**, suggesting a large opportunity to increase revenue through upselling strategies.
 
-* Encourage add-ons (drinks/sides)
-* Create combo deals around $30
-* Introduce family/group meal options
+- **The average customer spends about $29.60**, placing most transactions within the high-value “Medium” category.
+
+- **Large group orders are rare**, with a steep decline after 4-item purchases and very few transactions involving 5 or more items. This indicates the restaurant primarily serves individuals and small groups.
+
+### Strategic Recommendations
+
+- **Encourage upselling to convert single-item buyers**  
+  Offer incentives such as discounts on add-ons (drinks, sides) to move customers into the Medium spending range.
+
+- **Introduce a $30 combo offer**  
+  Create bundled meals aligned with the average spend to simplify decision-making and increase conversion.
+
+- **Attract larger groups**  
+  Introduce family packs or group meal options to encourage higher-value transactions.
+
 
 ---
 
-### 5. 🍽️ Menu Pairings
-![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/a07ce31ffac2f1bbb837e17005204adc7c8681f1/ComboMeals%20Dashboard.jpg)
+## 🍽️ Menu Pairings & Combo Performance
+![](https://github.com/agathaoguma/Taste-of-the-World-Cafe/blob/5d340a8613c6a6a10b61878df70b4620f6ab5c79/Combo%20Meals.jpg)
 
-* Most common pairing: **Edamame + Burger**
-* Highest revenue combos involve Korean Beef Bowl
-* Weakest combos involve Chicken Tacos
+### Key Insights
 
-**Recommendations:**
+- **Edamame and Burgers are the most frequently co-purchased items**, with combinations such as *Edamame & Hamburger* (90 orders) and *Cheeseburger & Edamame* (88 orders). This indicates a strong customer preference for pairing a light side with a main dish, making it a reliable high-volume combination.
 
-* Create official combo meals
-* Promote high-value pairings
-* Remove low-performing combinations
+- **High-value pairings are driven by premium items**, particularly the Korean Beef Bowl. For example, the combination *Korean Beef Bowl & Spaghetti & Meatballs* is associated with over **$2.3K in cumulative order value** across 65 orders. This suggests that premium items tend to appear together in higher-spending transactions.
 
+- **Chicken Taco pairings consistently underperform**, with extremely low frequency and minimal contribution to overall sales activity (1 order). This reinforces earlier findings that the item lacks both popularity and strong pairing compatibility.
+
+- **The menu supports a wide range of combinations (496 unique pairings)**, contributing to over **15K pairing occurrences** and **$388K in cumulative pairing value**. However, the large disparity between top-performing and low-performing combinations suggests that customer demand is concentrated in a small subset of pairings, indicating potential menu inefficiency.
+
+---
+
+### ⚠️ Note on Pairing Revenue
+
+The revenue attributed to menu pairings exceeds total restaurant revenue because each order can contribute to multiple item combinations.
+
+As a result, the same order value may be counted multiple times across different pairings. Therefore, this metric represents **cumulative pairing value** rather than actual revenue, and is best interpreted as a measure of **pairing impact within high-value orders**, not direct financial contribution.
+
+---
+
+### Strategic Recommendations
+
+- **Promote high-value pairings**  
+  Focus marketing efforts on combinations involving premium items (e.g., Korean Beef Bowl), as these are strongly associated with higher-spending customers and can increase average order value.
+
+- **Formalize popular combinations into combo deals**  
+  Introduce an official *Burger & Edamame* combo to streamline ordering, improve customer experience, and capitalize on proven high-frequency behavior.
+
+- **Deprioritize or remove underperforming pairings**  
+  Reduce visibility of low-performing combinations, particularly those involving Chicken Tacos, to simplify menu choices and guide customers toward higher-value options.
+
+- **Bundle low-performing items with best-sellers**  
+  Pair weaker items (e.g., Chips & Guacamole) with strong-performing mains to improve their sales performance and reduce menu waste.
+
+- **Simplify menu structure**  
+  With demand concentrated in a small number of combinations, curating and highlighting top-performing pairings can improve decision-making and overall sales efficiency.
 ---
 
 ## ⚙️ Assumptions & Data Cleaning
